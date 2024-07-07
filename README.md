@@ -35,16 +35,12 @@ pip install -e '.[dev]'
 cd ultralytics/yolo/v8/detect
 
 ```
-- Downloading a Sample Video from the Google Drive
-```
-gdown "https://drive.google.com/uc?id=1rjBn8Fl1E_9d0EMVtL24S9aNQOJAveR5&confirm=t"
-```
 
 - Run the code with mentioned command below.
 ```
 - For yolov8 object detection + Tracking + Vehicle Counting
 ```
-python predict.py model=yolov8l.pt source="test3.mp4" show=True
+python predict.py model=yolov8l.pt source="ground.mp4" show=True
 ```
 
 ### RESULTS
